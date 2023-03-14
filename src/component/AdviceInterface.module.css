@@ -1,0 +1,55 @@
+.container {
+    background-color: #313a49;
+    height: 330px;
+    width: 540px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    color: white;
+
+}
+
+.container h2 {
+    padding: 15px;
+    font-size: 28px;
+}
+
+.header {
+    color:  hsl(150, 100%, 66%);
+    position: absolute;
+    top: 15px;
+    font-weight: 800;
+}
+
+.circle {
+    position: absolute;
+    bottom: -30px;
+ 
+}
+
+.circle button {
+    background-color: #54ffab;
+    border-radius: 50%;
+    padding: 15px;
+    transition: box-shadow 0.3s ease 0s;
+
+}
+
+.circle button:hover{
+    box-shadow: 0 0 30px 5px #54ffab;
+    border-color: #54ffab;
+}
+
+@media (max-width: 500px){
+    .container {
+        max-width: 340px;
+    }
+    .Linebreak {
+        max-width: 80%;
+        height: auto;
+    }
+}
+
